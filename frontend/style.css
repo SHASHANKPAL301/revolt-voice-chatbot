@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom right, #ffffff, #e2e8f0);
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+#mic-button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 14px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+#mic-button:hover {
+  background-color: #444;
+}
+
+#audio-response {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+}
+
+.chat-window {
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  min-height: 150px;
+  overflow-y: auto;
+  max-height: 300px;
+  white-space: pre-wrap;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.note {
+  font-size: 12px;
+  margin-top: 30px;
+  color: #999;
+}
