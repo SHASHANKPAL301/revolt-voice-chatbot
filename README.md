@@ -24,10 +24,9 @@ This is a voice-based AI chatbot for **Revolt Motors**, designed using **Gemini 
 
 ## 🚀 How to Run Locally
 
-### 1. Clone the Repo
+### 1.Setup Backend
 
 ```bash
-2. Setup Backend
 bash
 Copy
 Edit
